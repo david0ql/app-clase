@@ -5,6 +5,7 @@ const app = express();
 app.get('/obtenerUsuarios', (req, rep) => {
     const nombre = req.query.nombre;
     rep.json({nombre});
+    console.log("hola")
 });
 
 
